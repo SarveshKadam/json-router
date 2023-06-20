@@ -6,8 +6,8 @@ import routesData from "./constants/routesData.json";
 import AuthWrapper from "./AuthWrapper";
 
 const generateRoute = (routes: SubmeuProps[]) => {
-  return routes.map((route) => (
-    <React.Fragment key={route.locale}>
+  return routes.map((route, index) => (
+    <React.Fragment key={`${route.locale}-${index}`}>
       <Route
         path={route.path}
         element={
