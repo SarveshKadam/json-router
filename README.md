@@ -7,7 +7,7 @@ You can view the [Live App](https://json-router.netlify.app/).
 ⚡️ JSON Based on scalable routing\
 ⚡️ Role-Based Routing\
 ⚡️ Breadcrumbs with active link\
-⚡️ Includes Reusable Components\
+⚡️ Includes Reusable Components
 
 ## Technologies used 🛠️
 
